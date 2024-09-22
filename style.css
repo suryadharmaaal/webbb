@@ -1,0 +1,137 @@
+html
+body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(252, 252, 252);
+    color: black;
+}
+
+.ee{
+    background-color: #070707;
+    width: 20px;
+    border-radius: 20px;
+}
+
+.ee:hover{
+    cursor: pointer;
+    background-color: rgb(251, 251, 251);
+    transition: all .5s;
+}
+
+.mode{
+    width: 40px;
+    height: 20px;
+}
+
+.mode:hover{
+    cursor: pointer;
+}
+
+.dark{
+    background-color: black;
+    color: white;
+}
+
+.logo{
+    margin-right: auto;
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+}
+   
+.logo :hover{
+    cursor: pointer;
+    transform: rotate(2deg);
+    color: rgb(62, 25, 212);
+    transition: all .5s ease 0s;
+}
+
+header{
+    display: flex;
+    background-color: #0092ed;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+ 
+
+input{
+    width: 100px;
+    height: 30px;
+    border-radius: 1rem;
+}
+
+button{
+    margin-left: auto;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 1rem;
+    border: none;
+}
+ 
+.tombol{
+    color: rgb(250, 250, 250);
+    background-color: rgb(144, 152, 169);
+}
+
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.kucing{
+    width: 420px;
+    padding: 0px;
+    margin: 10px;
+    border-radius: 100%;
+}
+
+h2{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.skill{
+    margin-right: 1000px;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+
+div{
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.html-1{
+    height: 100px;
+    padding-top: 37px;
+}
+
+.css-1{
+    height: 150px;
+    padding-right: 30px;
+    padding-top: 15px;
+}
+    
+.js-1{
+    height: 160px;
+    padding-top: 20px;
+}
+
+.figma-1{
+    height: 140px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
